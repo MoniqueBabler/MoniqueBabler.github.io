@@ -47,7 +47,7 @@ section{
     box-shadow: 0 8px 6px rgba(175, 63, 164, 0.745);/*configuraçoes dafumaça*/
 }
 
-.contrainer{
+.contrainerP{
     max-width: 800px;
     margin:  auto;
 }
@@ -67,7 +67,7 @@ h2{
     height: 295px;
     border-radius: 50%; /*deixa redondo a borda da foto*/
     object-fit: cover;
-    border: 4px solid rgb(117, 54, 190);
+    border: 4px solid rgb(145, 88, 211);
 }
 
 .sobre-informacoes{
@@ -81,3 +81,39 @@ h2{
     color: #000000;/*muda a cor da letras*/
 }
 
+ .cards {
+    display: flex;/* coloca os cards lado a lado */
+    flex-wrap: wrap;/* quebra linha se não couberem */
+    gap: 1rem;/* espaço entre eles */
+   
+}
+.card{
+    background: radial-gradient(circle, rgb(230, 201, 227)0%, rgba(195, 121, 203, 0.464)100%);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 200%;
+    box-shadow: 0 4px 8px rgb(79, 43, 67);
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+    text-align: center;
+
+}
+.foto-projeto{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%; /*deixa redondo a borda da foto*/
+    object-fit: contain;
+    border: 4px solid rgb(145, 88, 211);
+}
+.contatoss{
+    text-align: center;
+}
+.projeto{
+    display: inline-block;
+    padding: 50px;
+
+}
+.projeto h3{
+    display:grid;
+    align-items: center;
+    width: 100px;
+}
